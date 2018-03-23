@@ -1,0 +1,20 @@
+
+
+
+Story
+Story points
+Story Anchor
+Sprint includes n Stories and m People ends with something that have a value - a working software after sprint ends ... ususally 1 week to 1 month
+
+
+Roles in Scrum: Product Owner - client; Scrum Master - project manager; Scrum dev team - team (develop, test, analyze usw)
+
+Sprint Backlog contains backlog; in progress; done
+the same is for whole project a backlog
+
+Sprint Result - at the end of sprint should be a demonstration of product
+
+Tools and Techniques
+Test-driven development - one story has many tests
+
+Mocking - simulating some services 
