@@ -18,3 +18,122 @@ Tools and Techniques
 Test-driven development - one story has many tests
 
 Mocking - simulating some services 
+
+
+
+
+
+EVOL@SVA MINGW64 ~
+$ c:
+bash: c:: command not found
+
+EVOL@SVA MINGW64 ~
+$ c:/
+bash: c:/: Is a directory
+
+EVOL@SVA MINGW64 ~
+$ cd
+
+EVOL@SVA MINGW64 ~
+$ cd src/
+bash: cd: src/: No such file or directory
+
+EVOL@SVA MINGW64 ~
+$ cd c:/
+
+EVOL@SVA MINGW64 /c
+$ cd c:/projects/tekwill/src
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src
+$ cd /c/
+
+EVOL@SVA MINGW64 /c
+$ cd /c/
+$Recycle.Bin/              Program Files/
+bootmgr                    Program Files (x86)/
+BOOTNXT                    ProgramData/
+Documents and Settings/    projects/
+hiberfil.sys               Recovery/
+Intel/                     swapfile.sys
+MSOCache/                  System Volume Information/
+OtherApps/                 Users/
+pagefile.sys               Windows/
+PerfLogs/
+
+EVOL@SVA MINGW64 /c
+$ cd /c/projects/tekwill/src/
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src
+$ git clone https://github.com/VitalieLazari/tekwill_oca.git
+Cloning into 'tekwill_oca'...
+warning: You appear to have cloned an empty repository.
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src
+$ ls-
+bash: ls-: command not found
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src
+$ ls -l
+total 0
+drwxr-xr-x 1 EVOL 197121 0 ??? 23 20:47 tekwill_oca/
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src
+$ git commit -m "java1.txt"
+fatal: Not a git repository (or any of the parent directories): .git
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src
+$ cd tekwill_oca/
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$ git commit -m "java1.txt"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'EVOL@SVA.(none)')
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$ git config --global user.email "vitalie.lazari@gmail.com"
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$ git config --global user.name "vitalielazari"
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$ git commit -m "java1.txt"
+On branch master
+
+Initial commit
+
+Untracked files:
+        lesson1/
+
+nothing added to commit but untracked files present
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$ git add *
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$ git commit -m "java1.txt"
+[master (root-commit) f9e13e9] java1.txt
+ 1 file changed, 20 insertions(+)
+ create mode 100644 lesson1/Java1.txt
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$ git push origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 604 bytes | 604.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/VitalieLazari/tekwill_oca.git
+ * [new branch]      master -> master
+
+EVOL@SVA MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$
