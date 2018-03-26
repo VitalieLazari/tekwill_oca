@@ -1,0 +1,7 @@
+Java is object-oriented language 
+Java is platform-independent
+.java (source code) - javac (source code is compiled) - .class (result bytecode) - java (class file executed by JRE)
+
+java benefits modularity, information hiding, maintaining, code reuse
+
+
