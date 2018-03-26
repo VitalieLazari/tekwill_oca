@@ -22,6 +22,6 @@ Mocking - simulating some services
 
 update sources on git
 
-got add*
-git commit -m
+got add *
+git commit -m or -a and write something in log about changes (this option I think is for -a)
 git push origin master
