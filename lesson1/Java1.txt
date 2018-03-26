@@ -22,6 +22,6 @@ Mocking - simulating some services
 
 update sources on git
 
-got add *
-git commit -m or -a and write something in log about changes (this option I think is for -a)
+git add *
+git commit -m, in quatation marks, specify name of file i.e. "java1.txt" or -a (all) and write something in log about changes (this option is for -a)
 git push origin master
