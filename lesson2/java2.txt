@@ -4,4 +4,10 @@ Java is platform-independent
 
 java benefits modularity, information hiding, maintaining, code reuse
 
+create a "hello" simple class save as .java
+in comand line write javac [name of file which is equal to class name].java a .class will be created
+to run in command line write java [name of java class] and the mentioned class will be executed
+
+
+
 
