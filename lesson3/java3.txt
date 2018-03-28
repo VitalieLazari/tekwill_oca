@@ -1,0 +1,8 @@
+java class name begins with a capital letter
+a class body contains attributes/properties/fields
+and methods/operation 
+
+look up for coding convention
+
+package is a folder which contains other folders or/and classes, there can be multiple classes with the same name, but in different packages
+
