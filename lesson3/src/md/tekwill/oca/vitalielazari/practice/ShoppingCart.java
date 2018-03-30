@@ -4,7 +4,7 @@ public class ShoppingCart {
 
 	public static void main (String[] args) {
 		
-		System.out.println("You gonna die hard!!!");
+		System.out.println("Welcome yo the Shopping Cart!");
 	}
 
 }
